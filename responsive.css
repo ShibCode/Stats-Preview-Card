@@ -1,0 +1,96 @@
+@media screen and (max-width:1080px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 175vh;
+    }
+    .maincard{
+        height: 900px;
+        width: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .maincard-right{
+        width: 400px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        border-top-left-radius: var(--border-radius);
+        border-bottom-right-radius: 0px;
+        height: 330px;
+    }
+    .purple{
+        width: 400px;
+        height: 330px;
+        border-top-left-radius: var(--border-radius);
+        border-bottom-right-radius: 0;
+    }
+    .maincard-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        height: 465px;
+    }
+    .upperleft{
+        text-align: center;
+    }
+    .lowerleft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .secondstat{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+   }
+   .firststat{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+   .thirdstat{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+}
+@media screen and (max-width:475px) {
+    :root{
+        --cardwidth: 325px
+    }
+    .maincard{
+        width: var(--cardwidth);
+    }
+    .purple{
+        width: var(--cardwidth);
+        height: 269px;
+    }
+    .maincard{
+        justify-content: start;
+        height: 852px;
+    }
+    .maincard-right{
+        width: var(--cardwidth);
+        height: 305px;
+    }
+    .maincard-left{
+        width: var(--cardwidth);
+        margin: 0px;
+    }
+    .upperleft{
+        width: var(--cardwidth);
+    }
+    .para{
+        padding: 0 30px;
+    }
+}
